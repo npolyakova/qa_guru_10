@@ -1,4 +1,4 @@
-/*package helpers;
+package helpers;
 
 import com.codeborne.selenide.Selenide;
 import io.qameta.allure.Attachment;
@@ -29,4 +29,4 @@ public class AttachmentsHelper {
     public static String getConsoleLogs() {
         return String.join("\n", Selenide.getWebDriverLogs(BROWSER));
     }
-}*/
+}
